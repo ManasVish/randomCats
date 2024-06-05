@@ -29,8 +29,8 @@ const breedList = async () => {
   let data = await response.json();
   console.log(data[0]);
   img.src = data[0].url;
-  img.width = 700;
-  img.height = 500;
+  img.width = 200;
+  img.height = 300;
 //   document.write(data[0]);
 };
 
